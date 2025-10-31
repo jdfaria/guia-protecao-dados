@@ -1,6 +1,7 @@
+
 import React from 'react';
-import Section from './Section';
-import { SpotTheRiskGame } from './InteractiveActivities';
+import Section from './Section.tsx';
+import { SpotTheRiskGame } from './InteractiveActivities.tsx';
 
 interface ActivityProps {
   onActivityComplete?: (score: number, total: number) => void;

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowLeftIcon, ArrowRightIcon } from './icons';
+import { ArrowLeftIcon, ArrowRightIcon } from './icons.tsx';
 
 interface NavigationProps {
   currentSection: number;

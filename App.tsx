@@ -1,19 +1,19 @@
 
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import Introduction from './components/Introduction';
-import OnlineProtectionTips from './components/OnlineProtectionTips';
-import PasswordGuide from './components/PasswordGuide';
-import PasswordCreator from './components/PasswordCreator';
-import PasswordChecker from './components/PasswordChecker';
-import PasswordPitfalls from './components/PasswordPitfalls';
-import Footer from './components/Footer';
-import Navigation from './components/Navigation';
-import ActivityPersonalData from './components/ActivityPersonalData';
-import ActivitySpotTheRisk from './components/ActivitySpotTheRisk';
-import ActivityPasswordMatcher from './components/ActivityPasswordMatcher';
-import ActivityPasswordQuiz from './components/ActivityPasswordQuiz';
-import Certificate from './components/Certificate';
+import Header from './components/Header.tsx';
+import Introduction from './components/Introduction.tsx';
+import OnlineProtectionTips from './components/OnlineProtectionTips.tsx';
+import PasswordGuide from './components/PasswordGuide.tsx';
+import PasswordCreator from './components/PasswordCreator.tsx';
+import PasswordChecker from './components/PasswordChecker.tsx';
+import PasswordPitfalls from './components/PasswordPitfalls.tsx';
+import Footer from './components/Footer.tsx';
+import Navigation from './components/Navigation.tsx';
+import ActivityPersonalData from './components/ActivityPersonalData.tsx';
+import ActivitySpotTheRisk from './components/ActivitySpotTheRisk.tsx';
+import ActivityPasswordMatcher from './components/ActivityPasswordMatcher.tsx';
+import ActivityPasswordQuiz from './components/ActivityPasswordQuiz.tsx';
+import Certificate from './components/Certificate.tsx';
 
 const sectionComponents = [
   Introduction,

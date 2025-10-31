@@ -1,6 +1,7 @@
+
 import React from 'react';
-import Section from './Section';
-import { AlertTriangleIcon, KeyRoundIcon, UserIcon, RepeatIcon } from './icons';
+import Section from './Section.tsx';
+import { AlertTriangleIcon, KeyRoundIcon, UserIcon, RepeatIcon } from './icons.tsx';
 
 const PitfallCard: React.FC<{ icon: React.ReactNode; title: string; children: React.ReactNode }> = ({ icon, title, children }) => (
     <div className="bg-white rounded-lg shadow-md p-6 flex items-start space-x-4">

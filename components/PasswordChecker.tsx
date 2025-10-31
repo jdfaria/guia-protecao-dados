@@ -1,7 +1,8 @@
+
 import React, { useState, useEffect } from 'react';
-import type { PasswordStrength } from '../types';
-import Section from './Section';
-import { CheckIcon, XIcon } from './icons';
+import type { PasswordStrength } from '../types.ts';
+import Section from './Section.tsx';
+import { CheckIcon, XIcon } from './icons.tsx';
 
 const StrengthCriterion: React.FC<{ met: boolean; text: string }> = ({ met, text }) => (
     <li className={`flex items-center transition-colors duration-300 ${met ? 'text-emerald-600' : 'text-gray-500'}`}>

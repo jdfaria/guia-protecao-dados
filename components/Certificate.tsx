@@ -1,6 +1,6 @@
 
 import React, { useState, useRef } from 'react';
-import Section from './Section';
+import Section from './Section.tsx';
 import { toPng } from 'html-to-image';
 
 interface CertificateProps {

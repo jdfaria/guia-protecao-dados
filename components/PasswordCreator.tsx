@@ -1,5 +1,6 @@
+
 import React, { useState, useMemo } from 'react';
-import Section from './Section';
+import Section from './Section.tsx';
 
 const PasswordCreator: React.FC = () => {
   const [word, setWord] = useState('Informatica');

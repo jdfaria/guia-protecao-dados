@@ -1,5 +1,6 @@
+
 import React from 'react';
-import Section from './Section';
+import Section from './Section.tsx';
 
 const Introduction: React.FC = () => {
   return (

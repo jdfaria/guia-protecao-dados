@@ -1,6 +1,7 @@
+
 import React from 'react';
-import Section from './Section';
-import { ShieldCheckIcon, EyeOffIcon, LogOutIcon } from './icons';
+import Section from './Section.tsx';
+import { ShieldCheckIcon, EyeOffIcon, LogOutIcon } from './icons.tsx';
 
 const TipCard: React.FC<{ icon: React.ReactNode; title: string; children: React.ReactNode }> = ({ icon, title, children }) => (
     <div className="bg-white rounded-lg shadow-lg p-6 text-center transform hover:scale-105 transition-transform duration-300">

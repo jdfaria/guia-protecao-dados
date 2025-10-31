@@ -1,6 +1,7 @@
+
 import React from 'react';
-import Section from './Section';
-import { PasswordStrengthQuiz } from './InteractiveActivities';
+import Section from './Section.tsx';
+import { PasswordStrengthQuiz } from './InteractiveActivities.tsx';
 
 interface ActivityProps {
   onActivityComplete?: (score: number, total: number) => void;

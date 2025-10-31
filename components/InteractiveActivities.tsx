@@ -1,6 +1,6 @@
 
 import React, { useState, useReducer, useEffect } from 'react';
-import { RefreshCwIcon } from './icons';
+import { RefreshCwIcon } from './icons.tsx';
 
 // --- Activity 1: Personal Data Quiz ---
 

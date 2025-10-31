@@ -1,6 +1,7 @@
+
 import React from 'react';
-import Section from './Section';
-import { PersonalDataQuiz } from './InteractiveActivities';
+import Section from './Section.tsx';
+import { PersonalDataQuiz } from './InteractiveActivities.tsx';
 
 interface ActivityProps {
   onActivityComplete?: (score: number, total: number) => void;

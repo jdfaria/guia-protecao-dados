@@ -1,7 +1,7 @@
 
 import React from 'react';
-import Section from './Section';
-import { PasswordPitfallMatcher } from './InteractiveActivities';
+import Section from './Section.tsx';
+import { PasswordPitfallMatcher } from './InteractiveActivities.tsx';
 
 interface ActivityProps {
   onActivityComplete?: (score: number, total: number) => void;
